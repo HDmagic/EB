@@ -1,119 +1,66 @@
 body, .page, .container, .menu-housecup-flex {
-    display: flex;
+            display: flex;
+            }
 
-}
-
-.menu-loginbutton, .menu-events, .menu-login-text, .menu-housecup-flex, .menu-rhyme div, .menu-onlinestats, .slytherin, .gryffindor, .counter-since {
-    font-size: xx-small;
-}
+.menu-loginbutton, .menu-events, .menu-login-text, .menu-housecup-flex, .menu-rhyme div, .menu-onlinestats, .slytherin, .gryffindor, .counter-since, .menu-holidays div, .small {
+            font-size: xx-small;
+            }
 
 .menu-right, .content, .footer, .menu-loginbutton, .menu-holidays, .menu-links, h4, .menu-rhyme div, .menu-counter {
-        text-align: center;
-} 
+            text-align: center;
+            } 
 
 body {
-        background-image: url("img/back19.jpg");
-        font: small/1em Verdana, sans-serif; 
-        justify-content: center;
-        margin:0px;
-    }
-
-.page { 
-        
-        flex: 1;
-        margin-left: auto;
-        margin-right: auto;  
-        padding: 5px;
-        width: 780px;
-        
-    }
-
-.container {
-        background: #2D271E url('img/stiny.gif') repeat-y center; 
-        color:white;
-        flex-direction: column;
-        min-height: 100vh;
-        width: 800px;
-        }
-        
-
-.menu{
-        width: 140px;
-    }
-
-.menu-top {
-            background: url('img/menutop.jpg') no-repeat center;
-            border: 0px none;
-            height: 20px;
-            margin: 0 2px;
-            padding: 0;
-    
-    
-}
- .menu-bottom {
-            background: url('img/menubottom.jpg') no-repeat center;
-            border: 0px none;
-            height: 20px ;
-            margin: 0px;
-            padding: 0;
-
-}
-
-.menu-left{
-            float: left;
-            order: -1;
-        }
-
-.menu-right{    
-            float: right;
+            background-image: url("img/back19.jpg");
+            font: small/1em Verdana, sans-serif; 
+            justify-content: center;
+            margin:0px;
             }
 
-
-
-
-
-
-.content {
-            font-size: small;
-            
-            width: 500px;
-        }
-
+h4 {
     
-.menu-loginform {
-            height: 9px;
-            width:95px;
+            margin: 14px 0 3px 0;
             }
-
-.menu-loginbutton {
-            
-            height: 17px;
-            
-            width:80px;
-}
-
-
-.menu-item {
-            background-image: url("img/backtable.gif");
-            border-left: 1px solid #404040;
-            border-right: 1px solid #400000;
-            margin: 0 2px;
-            padding: 3px 6px 3px 6px;
-        }
 
 a{
             color: #FFc800;
             text-decoration: none;
-        }     
- 
-.header {
-            padding: 0px 10px 3px 10px;
-        }
+            }     
 
-.menu-nav a {
-            display: block;
-            
-        }
+figure {
+            margin: 8px;
+            }
+
+.bold {
+            font-weight: bold;
+            }
+
+.br {
+            margin-bottom: 20px;
+            }
+
+
+
+.page { 
+            flex: 1;
+            margin-left: auto;
+            margin-right: auto;  
+            padding: 5px;
+            width: 780px;
+            }
+
+.container {
+            background: #2D271E url('img/stiny.gif') repeat-y center; 
+            color:white;
+            flex-direction: column;
+            min-height: 100vh;
+            width: 800px;
+            }
+        
+.content {
+            font-size: small;
+            width: 500px;
+            }
 
 .content-text{
             background: url("img/backtable.gif");
@@ -121,20 +68,75 @@ a{
             line-height: 100%;
             margin: 3px 7px 3px 7px;
             padding: 7px 7px 12px 7px;
-        }
+            }
+
+.counter-online  {
+            margin-bottom: 19px;
+             }
+
+.counter-total { 
+            margin: 6px 0px 9px 0px;
+            }
+
+.footer{
+            background: #210907;
+            padding: 10px;
+             
+            }
 
 .gold       {
             color:#FFc800;
             font-weight: bold;}
 
-.quidditch {
-            color: #FF9999;
-            font-weight: bold;
-}
-
-.menu-nav {
-            text-align: left;
+.google {
+            width: 465px;
+            background: url("img/backtable.gif");
+            border: thin outset gray;
+            margin-left: 2px;
+            margin-right: 100px;
+            margin:auto;
+            height: 50px;
+            padding: 20px 10px 20px 10px;
         }
+
+.google-button {
+            height: 14px;
+            font-size: xx-small;       
+            width:100px;
+            }
+
+.google-form {
+            float: left;
+            padding-top: 10px;
+            }
+
+.google-logo {
+            float: left;
+            }
+
+
+.google-text {
+            height: 9px;
+            width:180px;
+            }
+
+.header {
+            padding: 0px 10px 5px 10px;
+            }
+
+.menu{
+            width: 140px;
+            }
+
+
+.menu-bottom {
+            background: url('img/menubottom.jpg') no-repeat center;
+            border: 0px none;
+            height: 20px ;
+            margin: 0px;
+            padding: 0;
+
+            }
 
 .menu-cat {
             border-left: 2px solid #ffbd00;
@@ -142,76 +144,153 @@ a{
             font-weight: bold;
             margin: 6px 0 3px 1px;
             padding: 0 0 0 0.2em;
-        }
-.menu-hr {
-            border-top: 1px solid;
-        }
+            }
 
-
-
-
-.menu-links img {
-    border: 1px solid gray;
-}
-.menu-links img:hover {
-    border: 1px solid white;
-}
-
-
-h4 {
-    
-	margin: 14px 0 3px 0;
-
-}
 .menu-housecup-flex{
-    align-items: flex-end;
-    justify-content: center;
-    margin: 0px auto;
-    
-    
-}
-.menu-online {
-    font-size: small;
-}
-
-figure {
-    margin: 8px;
-}
-.menu-online p{
-    color: #FC9324;
-}
-
-.menu-onlinehere , .menu-onlineall {
-    text-align: left;
-                 }
-.slytherin{
-    color: #00FF00;
-    
-        }
-
-.gryffindor{
-    
-            color: #FF3333;
-        }
-
-
-.counter-online  {
-            margin-bottom: 19px;
-          
-            
-            
-}
-
-.counter-total { 
-            margin: 6px 0px 9px 0px;
-        }
-
-
-
-.br {
-    margin-bottom: 20px;
-}
+            align-items: flex-end;
+            justify-content: center;
+            margin: 0px auto;
+            }
 
 .menu-housecup h4 {
-    padding-bottom: 10px;
-}
+            padding-bottom: 10px;
+            }
+
+.menu-hr {
+            border-top: 1px solid;
+            }
+
+.menu-item {
+            background-image: url("img/backtable.gif");
+            border-left: 1px solid #404040;
+            border-right: 1px solid #400000;
+            margin: 0 2px;
+            padding: 3px 6px 3px 6px;
+            }
+
+.menu-loginbutton {
+            height: 17px;
+            width:80px;
+            }
+
+.menu-loginform {
+            height: 9px;
+            width:95px;
+            }
+
+.menu-left{
+            float: left;
+            order: -1;
+            }
+
+.menu-links img {
+            border: 1px solid gray;
+            }
+
+.menu-links img:hover {
+            border: 1px solid white;
+            }
+
+.menu-nav {
+            text-align: left;
+            }
+
+.menu-nav a {
+            display: block;
+            }
+
+.menu-online {
+            font-size: small;
+            }
+
+.menu-online p{
+            color: #FC9324;
+            }
+
+.menu-onlinehere , .menu-onlineall {
+            text-align: left;
+            }
+
+.menu-right{    
+            float: right;
+            }
+
+.menu-top {
+            background: url('img/menutop.jpg') no-repeat center;
+            border: 0px none;
+            height: 20px;
+            margin: 0 2px;
+            padding: 0;
+            }
+
+.quidditch {
+            color: #FF9999;
+            font-weight: bold;
+            }
+
+.gryffindor{
+            color: #FF3333;
+            }
+
+.slytherin{
+            color: #00FF00;
+            }
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
