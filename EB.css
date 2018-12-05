@@ -193,6 +193,11 @@ figure {
     margin-bottom: 40px;
 }
 
+.menu-item--nav {
+    display: flex;
+    flex-direction: column;
+}
+
 .menu-loginbutton {
     height: 17px;
     width: 80px;
@@ -209,10 +214,6 @@ figure {
 
 .sites:hover {
     border: 1px solid white;
-}
-
-.menu-nav a {
-    display: block;
 }
 
 .menu-onlinelist--heading {
